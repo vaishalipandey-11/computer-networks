@@ -1,0 +1,105 @@
+    🚂 Express.js
+
+        A lightweight Node.js framework used to build servers and APIs.
+        Makes routing, handling requests/responses easier.
+
+        Example:
+        app.get('/home', (req, res) => {
+        res.send("Hello Vaishali!");
+        });
+ 
+    🔁 REST API
+
+        REST = Representational State Transfer (an architectural style).
+        Uses HTTP methods like:
+        GET – read data
+        POST – create
+        PUT – update
+        DELETE – remove
+
+        RESTful APIs are stateless and use URLs + HTTP.
+
+     ⚙️ Middleware
+
+        Functions that run before your final route handler.
+        Used for:
+        Logging
+        Authentication
+        Error handling
+        Parsing JSON, etc.
+
+        Example:
+        app.use(express.json()); // built-in middleware
+  
+   🚦 Routes
+
+        Define how your server responds to different URL paths.
+        Example:
+        app.get('/users', getUsers);
+        app.post('/login', loginUser);
+
+     🛢️ Database
+        A place to store and retrieve structured data.
+        Two main types:
+        SQL (Relational) – tables, fixed schemas (e.g., MySQL)
+        NoSQL (Non-relational) – collections/documents (e.g., MongoDB)
+
+    🍃 MongoDB
+        A NoSQL database.
+        Stores data in flexible JSON-like documents.
+        Uses collections and documents (not tables/rows).
+        Easily integrates with Node.js using Mongoose library.
+
+    🔨 CRUD (Create, Read, Update, Delete)
+        Core operations for interacting with a database.
+        Example:
+        Create → POST /user
+        Read → GET /user
+        Update → PUT /user/:id
+        Delete → DELETE /user/:id
+
+    🔐 JWT (JSON Web Token)
+        A token (string) used for securely transmitting info between parties.
+        Mostly used for authentication.
+        Example:
+        User logs in → server sends JWT → client stores it → sends it with each request.
+
+    🔒 Bcrypt
+        A library to hash passwords.
+        Makes sure passwords are stored securely (not in plain text).
+        Also used for comparing passwords during login.
+  
+    🧑‍💻 Authentication       vs              Authorization
+
+        Who are you?  (Identity)	        What can you do? (Permissions)
+        Done via login credentials       	Done via roles/privileges
+        Happens first	                    Happens after authentication
+
+
+     🗃️ SQL                 vs                   NoSQL
+
+        SQL (Relational DB)                 	NoSQL (Non-relational DB)
+        Uses tables with rows/columns	        Uses documents/collections
+        Fixed schema (structured)	            Flexible schema (semi-structured)
+        Joins supported	                        Joins are hard or unsupported
+        Example: MySQL, PostgreSQL	            Example: MongoDB, Firebase
+        ACID compliant (strong consistency)    	BASE compliant (eventual consistency)
+
+        🔧 Choose SQL for structured data with complex relationships.
+        ⚡ Choose NoSQL for scalability and flexible data.
+
+     🔹 What is a Domain?
+        A domain is the human-readable name used to access a website, like google.com.
+        It points to the website's actual IP address using DNS (Domain Name System).
+
+        📌 Components of a Domain:
+        Top-Level Domain (TLD): .com, .org, .in, .dev
+
+        Second-Level Domain (SLD): The main name → google in google.com
+
+        Subdomain: Optional prefix → mail.google.com, blog.vaishali.dev
+
+        🧠 Analogy:
+        Just like saving a contact name for a number —
+        You type vaishali.dev instead of the server IP like 142.250.180.78.
+
