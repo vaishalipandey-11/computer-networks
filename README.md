@@ -4,18 +4,7 @@ This repository contains structured, easy-to-understand notes on **Computer Netw
 
 ---
 
-## 📁 Folder Structure
 
-computer-networks/
-├── README.md # Main documentation
-├── physical-layer.md # Physical Layer concepts (signals, transmission, bandwidth)
-├── data-link-layer.md # Framing, MAC, error control, Ethernet, ALOHA, switching
-├── network-layer.md # IP, routing, IPv4 vs IPv6, ICMP, NAT
-├── transport-layer.md # TCP, UDP, ports, connection control, congestion handling
-├── application-layer.md # HTTP, DNS, FTP, SMTP, DHCP, SSH
-└── diagrams/ # Visuals and flow diagrams
-
----
 
 ## ✅ Topics Covered
 
