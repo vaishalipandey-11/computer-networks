@@ -356,3 +356,54 @@ Demultiplexing is the process of separating the combined stream back into indivi
 | **Identifiers Used** | IP address + Port number (together form a **Socket**)                                       |
 | **TCP/UDP Role**     | Use port numbers to identify the correct **process** on the destination machine             |
 | **Example**          | Receiving system uses the **destination port number** to direct the data to the correct app |
+
+🔹 Example:
+Imagine you're browsing the web and listening to Spotify:
+| App            | Source Port | Destination Port |
+| -------------- | ----------- | ---------------- |
+| Browser (HTTP) | 54321       | 80               |
+| Spotify        | 54322       | 443              |
+
+→ At the sender, TCP multiplexes both streams into one data channel.
+→ At the receiver, TCP demultiplexes based on port numbers.
+
+🧠 Interview Tip:
+Without multiplexing & demultiplexing, only one app could communicate at a time.
+It enables process-to-process delivery — a key function of the transport layer.
+
+✅ 12. Quality of Service (QoS)
+
+🔹 What is QoS?
+Quality of Service refers to the set of technologies and techniques used to manage network traffic to ensure performance, reliability, and prioritization for critical applications.
+📌 Ensures that important traffic (e.g., voice, video) is delivered smoothly, even during congestion.
+
+🔹 Key Parameters of QoS
+| **Parameter**       | **Meaning**                                                  |
+| ------------------- | ------------------------------------------------------------ |
+| **Bandwidth**       | Maximum data rate (measured in Mbps)                         |
+| **Delay (Latency)** | Time taken for a packet to reach the destination             |
+| **Jitter**          | Variation in packet delay (important in video/audio streams) |
+| **Packet Loss**     | % of packets lost during transmission                        |
+| **Error Rate**      | Frequency of corrupted bits/packets                          |
+
+🔹 QoS Techniques
+| **Technique**                | **Description**                                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| **Traffic Classification**   | Categorizing traffic (e.g., voice, video, file transfer)                         |
+| **Traffic Shaping**          | Controlling the rate of outgoing data (e.g., **leaky bucket**, **token bucket**) |
+| **Prioritization (Queuing)** | Giving higher priority to critical traffic (e.g., real-time audio)               |
+| **Resource Reservation**     | Reserving bandwidth using protocols like **RSVP**                                |
+| **Policing**                 | Dropping or marking packets that exceed allowed limits                           |
+| **Congestion Management**    | Using algorithms to manage buffer and bandwidth under congestion                 |
+
+🔹 Where QoS is Used
+VoIP & Video Conferencing (Zoom, Skype)
+Live Streaming (YouTube, Netflix)
+Online Gaming
+Enterprise Networks
+Cloud Services
+
+🧠 Interview Tip:
+QoS is crucial for real-time and high-priority applications.
+Focus on how delay, jitter, and packet loss are minimized using shaping, queuing, and prioritization.
+
