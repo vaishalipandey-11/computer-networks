@@ -7,10 +7,10 @@ It transmits **raw bits (0s and 1s)** over a physical medium like wires or air.
 ---
 
 ## 🔑 Key Functions
-- Define the **voltage levels** for 0 and 1
-- Handle **bit synchronization**
-- Specify **cables, connectors, and pin layouts**
-- Manage **physical transmission methods** (optical, electrical, etc.)
+- ⚡ **Decide how voltage represents 0 or 1.**
+- 🔄 **Ensure sender & receiver are in sync to recognize each bit.**
+- 🔌 **Define hardware parts like cables, connectors, pins.**
+- 🌐 **Handle types of transmission:** electrical signals, light pulses, or radio waves.
 
 ---
 
