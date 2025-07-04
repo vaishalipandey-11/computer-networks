@@ -25,6 +25,23 @@ Uses SSL/TLS for encryption.
 Works over port 443.
 
 🧠 Interview Tip: Know the TLS handshake basics and how HTTPS ensures confidentiality and authenticity.
+| Step                       | Purpose                           | What Happens                                                |
+| -------------------------- | --------------------------------- | ----------------------------------------------------------- |
+| **Client Hello**           | Start handshake                   | Client sends supported protocols, cipher suites, random no. |
+| **Server Hello**           | Select encryption & send identity | Server sends selected cipher + its **digital certificate**  |
+| **Certificate Verify**     | Authenticate server               | Client checks if certificate is valid (issued by CA)        |
+| **Key Exchange**           | Create shared secret              | Securely exchange key (Diffie-Hellman or RSA)               |
+| **Session Key Generation** | Secure communication starts       | Both sides generate same **symmetric session key**          |
+| **Finished Message**       | Confirm success                   | Both sides confirm handshake is complete, start encryption  |
+
+🌐 HTTPS Ensures This Security
+| Security Property    | How HTTPS Achieves It                                      |
+| -------------------- | ---------------------------------------------------------- |
+| **Confidentiality**  | Encrypts data using session key (AES, ChaCha20)            |
+| **Authenticity**     | Verifies server identity through SSL/TLS certificates      |
+| **Integrity**        | Uses MAC (Message Authentication Code) to detect tampering |
+| **Encryption Start** | After handshake, all HTTP data is encrypted                |
+| **Session Security** | Key is unique per session (Forward Secrecy in TLS 1.3)     |
 
 🔍 2. DNS (Domain Name System)
 ✅ What DNS Does:
@@ -42,31 +59,34 @@ MX: Mail exchange (used in email)
 CNAME: Alias for another domain
 
 🧠 Interview Tip: Understand the resolution path: Local cache → Recursive resolver → Root → TLD → Authoritative DNS
+| **Step**                  | **What Happens**                                                                | **Example for [www.example.com](http://www.example.com)**              |
+| ------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **1. Local Cache**        | Browser/OS checks if it already knows the IP.                                   | Found? → Done. Otherwise, go to next step.                             |
+| **2. Recursive Resolver** | ISP’s DNS server (or Google DNS, etc.) → does the heavy work of finding the IP. | Queries other DNS servers if needed.                                   |
+| **3. Root Server**        | Gives the location of the **TLD server**.                                       | Points to **.com** TLD server.                                         |
+| **4. TLD Server**         | Gives the location of the **Authoritative server**.                             | Points to **example.com’s** DNS server.                                |
+| **5. Authoritative DNS**  | Knows the actual IP address of the domain.                                      | Responds with the IP of **[www.example.com](http://www.example.com)**. |
+| **6. Response Returned**  | Recursive resolver gives the IP back to your browser.                           | Now your browser can load the website.                                 |
+
 
 🔁 3. FTP vs HTTP
-Feature	FTP	HTTP
-Purpose	File Transfer Protocol	Web page transfer
-Ports	20, 21	80 (HTTP), 443 (HTTPS)
-Connection	Stateful (maintains session)	Stateless (no memory)
-Security	Unsecure (FTP)	Secure (HTTPS)
+| **Feature**    | **FTP**                          | **HTTP**               |
+| -------------- | -------------------------------- | ---------------------- |
+| **Purpose**    | File transfer                    | Web page transfer      |
+| **Port**       | 20, 21                           | 80 (HTTP), 443 (HTTPS) |
+| **Connection** | Stateful                         | Stateless              |
+| **Security**   | Unsecure (FTP), FTPS/SFTP secure | Secure over HTTPS      |
+| **Usage**      | Upload/download files            | Browse websites / APIs |
 
 🧠 Interview Tip: Know when to use FTP (large file transfers, backups) vs HTTP (web browsing).
 
 📧 4. Email Protocols – SMTP, POP3, IMAP
-✅ SMTP (Simple Mail Transfer Protocol)
-Used for sending emails.
-Works between client → server, and server → server.
-Port: 25 (or 587 with encryption)
+| **Protocol** | **Purpose**                          | **Works Between**                | **Port**               |
+| ------------ | ------------------------------------ | -------------------------------- | ---------------------- |
+| **SMTP**     | Send emails                          | Client → Server, Server → Server | 25 (or 587 encrypted)  |
+| **POP3**     | Download & remove emails from server | Client → Server                  | 110                    |
+| **IMAP**     | Access emails without deleting       | Client ↔ Server                  | 143 (or 993 encrypted) |
 
-✅ POP3 (Post Office Protocol v3)
-Used to download emails to local computer.
-Deletes mail from server after download.
-Port: 110
-
-✅ IMAP (Internet Message Access Protocol)
-Accesses emails directly from the server.
-Allows multi-device sync (like Gmail app + desktop).
-Port: 143 (or 993 for encrypted)
 
 🧠 Interview Tip: Know the client-server interaction:
 SMTP for sending, IMAP/POP3 for retrieving.
