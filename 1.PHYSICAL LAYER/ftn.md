@@ -1,105 +1,130 @@
-1. Function of the Physical Layer
-The lowest layer of the OSI model.
-Its job is to transmit raw bits (0s and 1s) from sender to receiver over a physical medium (like wires or air).
-It doesn't care about what the bits mean—only that they are sent and received correctly.
+# 📡 Physical Layer – OSI Model
 
-Key Functions:
+The **Physical Layer** is the lowest layer of the OSI model.  
+It transmits **raw bits (0s and 1s)** over a physical medium like wires or air.  
+⚙️ It does **not interpret the meaning of the bits**, it just sends them correctly.
 
-Define the voltage levels for 0 and 1
-Handle bit synchronization
-Define cables, connectors, pin layouts
-Manage physical transmission methods (optical, electrical, etc.)
+---
 
-2. Data Transmission Modes
-This defines how data travels between devices.
-| Mode            | Description                         | Example        |
-| --------------- | ----------------------------------- | -------------- |
-| **Simplex**     | One-way only                        | TV Broadcast   |
-| **Half-Duplex** | Two-way, but one side at a time     | Walkie-Talkies |
-| **Full-Duplex** | Two-way, simultaneous communication | Phone calls    |
+## 🔑 Key Functions
+- Define the **voltage levels** for 0 and 1
+- Handle **bit synchronization**
+- Specify **cables, connectors, and pin layouts**
+- Manage **physical transmission methods** (optical, electrical, etc.)
 
-🧠 Interview Tip: Full-duplex doubles speed in both directions — used in modern Ethernet.
+---
 
-3. Types of Transmission
-1. Analog vs Digital
-Analog: Continuous signal (e.g., human voice)
-Digital: Discrete binary values (0s and 1s)
+## 🚦 Data Transmission Modes
 
-2. Baseband vs Broadband
-Baseband: Sends one signal at a time (e.g., Ethernet)
-Broadband: Multiple signals sent using multiple frequencies (e.g., Cable TV)
+| Mode        | Description                          | Example         |
+|-------------|--------------------------------------|-----------------|
+| Simplex     | One-way only                         | TV Broadcast    |
+| Half-Duplex | Two-way, but one side at a time      | Walkie-Talkies  |
+| Full-Duplex | Two-way, simultaneous communication  | Phone calls     |
 
-3. Serial vs Parallel
-Serial: Bits sent one at a time in a line (less errors, longer distances
-Parallel: Bits sent in groups (faster but prone to interference)
+💡 **Interview Tip:** Full-Duplex doubles speed in both directions — used in modern Ethernet.
 
-4. Transmission Media
-🧵 Twisted Pair Cable
-Common for LANs (Ethernet)
-Inexpensive, moderate speed
+---
 
-Types: UTP (Unshielded), STP (Shielded)
+## 🔄 Types of Transmission
 
-📺 Coaxial Cable
-Used in cable TV, older networks
-More shielding than twisted pair
+### Analog vs Digital
+- **Analog:** Continuous signal (e.g., human voice)
+- **Digital:** Discrete binary values (0s and 1s)
 
-💡 Fiber Optic Cable
-Uses light (not electricity)
-High speed, long distance, no interference
+### Baseband vs Broadband
+- **Baseband:** Sends one signal at a time (e.g., Ethernet)
+- **Broadband:** Multiple signals sent using multiple frequencies (e.g., Cable TV)
 
-🌐 Wireless Media
-Radio waves: Wi-Fi, Bluetooth
-Microwaves: Satellite, cellular
-Infrared: Remote controls
+### Serial vs Parallel
+- **Serial:** Bits sent one at a time (less errors, longer distances)
+- **Parallel:** Bits sent in groups (faster but prone to interference)
 
-5. Bandwidth & Throughput
-Bandwidth: Max amount of data the channel can carry (measured in bits/sec).
-Throughput: Actual rate of successful data transfer.
+---
 
-🧠 Example: Bandwidth is the pipe size; Throughput is how much water flows.
+## 🌐 Transmission Media
 
-6. Multiplexing Techniques
-Multiplexing = Sharing one channel among multiple signals
+### 🧵 Twisted Pair Cable
+- Common for LANs (Ethernet)
+- Inexpensive, moderate speed
+- Types: **UTP (Unshielded)**, **STP (Shielded)**
 
-| Type    | Description                                          | Example           |
-| ------- | ---------------------------------------------------- | ----------------- |
-| **FDM** | Divides bandwidth into frequency bands               | Radio, TV         |
-| **TDM** | Divides time into slots                              | Digital telephony |
-| **WDM** | Used in fiber optics (multiple wavelengths of light) | Optical networks  |
+### 📺 Coaxial Cable
+- Used in cable TV, older networks
+- More shielding than twisted pair
 
-🧠 In TDM: Each user gets a fixed time slot in rotation.
+### 💡 Fiber Optic Cable
+- Uses light (not electricity)
+- High speed, long distance, no interference
 
-7. Encoding Techniques
+### 🌐 Wireless Media
+- **Radio waves:** Wi-Fi, Bluetooth
+- **Microwaves:** Satellite, cellular
+- **Infrared:** Remote controls
+
+---
+
+## 📊 Bandwidth & Throughput
+
+- **Bandwidth:** Max amount of data the channel can carry (**bits/sec**)
+- **Throughput:** Actual rate of successful data transfer
+
+💡 **Example:** Bandwidth is the pipe size; Throughput is how much water flows.
+
+---
+
+## ➗ Multiplexing Techniques
+
+| Type | Description                              | Example         |
+|------|------------------------------------------|-----------------|
+| FDM  | Divides bandwidth into frequency bands   | Radio, TV       |
+| TDM  | Divides time into slots                  | Digital telephony |
+| WDM  | Multiple wavelengths of light in fiber optics | Optical networks |
+
+💡 **In TDM:** Each user gets a fixed time slot in rotation.
+
+---
+
+## 🔢 Encoding Techniques
+
 Used to represent binary 0s and 1s on transmission media:
 
-NRZ (Non-Return to Zero):
-High = 1, Low = 0
-Simple but no sync
+- **NRZ (Non-Return to Zero):** High = 1, Low = 0 → Simple but no sync
+- **Manchester Encoding:** Transition in the middle of each bit → Better synchronization
+- **Differential Manchester:** Uses change in transition to represent bits
 
-Manchester Encoding:
-Transition in middle of each bit
-Better synchronization
+💡 **These are needed for reliable bit recovery at the receiver.**
 
-Differential Manchester:
-Uses change in transition to represent bits
+---
 
-🧠 Needed for reliable bit recovery at the receiver
+## ⚙️ Bit Rate vs Baud Rate
 
-8. Bit Rate vs Baud Rate
-Bit Rate: No. of bits transmitted per second (bps)
-Baud Rate: No. of signal units per second
+| Term      | Meaning                                      |
+|-----------|----------------------------------------------|
+| Bit Rate  | No. of bits transmitted per second (bps)    |
+| Baud Rate | No. of signal units per second              |
 
-⚠️ Bit rate ≠ Baud rate always
-If each signal carries 2 bits, then:
-Bit rate = 2 × Baud rate
+⚠️ Bit rate ≠ Baud rate always.  
+If each signal carries 2 bits, then:  
+**Bit rate = 2 × Baud rate**
 
-9. Signals – Analog vs Digital
-Analog Signal: Continuous (sine wave)
-Digital Signal: Discrete levels (square wave)
+---
 
-🧠 Important Terms:
+## 🔊 Signals – Analog vs Digital
 
-Attenuation: Signal weakening over distance
-Noise: Unwanted interference
-Latency: Delay in transmission
+| Type          | Nature of Signal  | Example        |
+|---------------|-------------------|----------------|
+| Analog Signal | Continuous (sine wave) | Human voice |
+| Digital Signal| Discrete levels (square wave) | Computer data |
+
+---
+
+## 🧠 Important Terms
+
+| Term         | Description                             |
+|--------------|-----------------------------------------|
+| Attenuation  | Signal weakening over distance          |
+| Noise        | Unwanted interference                   |
+| Latency      | Delay in transmission                   |
+
+---
