@@ -73,7 +73,7 @@ It transmits **raw bits (0s and 1s)** over a physical medium like wires or air.
 
 ---
 
-## ➗ Multiplexing Techniques
+## ➗ Multiplexing Techniques(frequency ,time , wavelength)
 
 | Type | Description                              | Example         |
 |------|------------------------------------------|-----------------|
