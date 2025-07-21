@@ -1,811 +1,1075 @@
 # 📘 100 MCQs – OSI Model: Physical Layer
 
-**1. Which OSI layer is responsible for transmitting raw bits over a medium?**
-A. Physical
-B. Data Link
-C. Network
-D. Transport
+**1. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
 
 ---
 
-**2. What type of signal is used in fiber optic cables?**
-A. Electrical
-B. Radio
-C. Light
-D. Analog
+**2. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
 
 ---
 
-**3. Which cable type uses light instead of electrical signals?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
+**3. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
 
 ---
 
-**4. In which transmission mode can data flow in both directions simultaneously?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
+**4. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
 
 ---
 
-**5. Which device works at the Physical Layer?**
-A. Hub
-B. Router
-C. Switch
-D. Bridge
+**5. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
 
 ---
 
-**6. What is the main unit of data at the Physical Layer?**
-A. Frame
-B. Packet
-C. Segment
-D. Bit
+**6. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
 
 ---
 
-**7. Which of the following is not a type of transmission media?**
-A. Twisted Pair
-B. Fiber Optic
-C. Coaxial
-D. Repeater
+**7. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
 
 ---
 
-**8. What does NRZ stand for?**
-A. Non-Return to Zero
-B. Normalized Return Zero
-C. Non-Retentive Zone
-D. New Rate Zone
+**8. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
 
 ---
 
-**9. Which encoding technique ensures synchronization by mid-bit transitions?**
-A. NRZ
-B. Manchester
-C. Bipolar
-D. RZ
+**9. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
 
 ---
 
-**10. Which of the following best defines attenuation?**
-A. Signal weakening over distance
-B. Signal reflection
-C. Interference
-D. Signal loss
+**10. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
 
 ---
 
-**11. Which of the following is a guided transmission media?**
-A. Coaxial Cable
-B. Microwave
-C. Infrared
-D. Bluetooth
+**11. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
 
 ---
 
-**12. What does FDM stand for?**
-A. Frequency Division Multiplexing
-B. Fast Data Management
-C. Fiber Division Method
-D. Frequency Distribution Mode
+**12. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
 
 ---
 
-**13. TDM is mostly used in which type of networks?**
-A. Cable TV
-B. Satellite
-C. Telephone
-D. Wi-Fi
+**13. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
 
 ---
 
-**14. What does WDM stand for?**
-A. Wide Data Multiplexing
-B. Wireless Device Mapping
-C. Wavelength Division Multiplexing
-D. Wired Data Method
+**14. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
 
 ---
 
-**15. Which cable type is most immune to electromagnetic interference?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
+**15. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
 
 ---
 
-**16. Which layer defines connectors and pin layouts?**
-A. Physical
-B. Data Link
-C. Session
-D. Presentation
+**16. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
 
 ---
 
-**17. Which transmission mode is like walkie-talkie communication?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
+**17. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
 
 ---
 
-**18. Which encoding technique uses a transition to represent 0s and 1s differently?**
-A. NRZ
-B. Differential Manchester
-C. RZ
-D. Baseband
+**18. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
 
 ---
 
-**19. What is baud rate?**
-A. Symbols per second
-B. Bits per second
-C. Cycles per second
-D. Frames per second
+**19. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
 
 ---
 
-**20. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**
-A. 250
-B. 500
-C. 1000
-D. 1500
+**20. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
 
 ---
 
-**21. Which OSI layer is responsible for transmitting raw bits over a medium?**
-A. Physical
-B. Data Link
-C. Network
-D. Transport
-
----
-
-**22. What type of signal is used in fiber optic cables?**
-A. Electrical
-B. Radio
-C. Light
-D. Analog
-
----
-
-**23. Which cable type uses light instead of electrical signals?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**24. In which transmission mode can data flow in both directions simultaneously?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**25. Which device works at the Physical Layer?**
-A. Hub
-B. Router
-C. Switch
-D. Bridge
-
----
-
-**26. What is the main unit of data at the Physical Layer?**
-A. Frame
-B. Packet
-C. Segment
-D. Bit
-
----
-
-**27. Which of the following is not a type of transmission media?**
-A. Twisted Pair
-B. Fiber Optic
-C. Coaxial
-D. Repeater
-
----
-
-**28. What does NRZ stand for?**
-A. Non-Return to Zero
-B. Normalized Return Zero
-C. Non-Retentive Zone
-D. New Rate Zone
-
----
-
-**29. Which encoding technique ensures synchronization by mid-bit transitions?**
-A. NRZ
-B. Manchester
-C. Bipolar
-D. RZ
-
----
-
-**30. Which of the following best defines attenuation?**
-A. Signal weakening over distance
-B. Signal reflection
-C. Interference
-D. Signal loss
-
----
-
-**31. Which of the following is a guided transmission media?**
-A. Coaxial Cable
-B. Microwave
-C. Infrared
-D. Bluetooth
-
----
-
-**32. What does FDM stand for?**
-A. Frequency Division Multiplexing
-B. Fast Data Management
-C. Fiber Division Method
-D. Frequency Distribution Mode
-
----
-
-**33. TDM is mostly used in which type of networks?**
-A. Cable TV
-B. Satellite
-C. Telephone
-D. Wi-Fi
-
----
-
-**34. What does WDM stand for?**
-A. Wide Data Multiplexing
-B. Wireless Device Mapping
-C. Wavelength Division Multiplexing
-D. Wired Data Method
-
----
-
-**35. Which cable type is most immune to electromagnetic interference?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**36. Which layer defines connectors and pin layouts?**
-A. Physical
-B. Data Link
-C. Session
-D. Presentation
-
----
-
-**37. Which transmission mode is like walkie-talkie communication?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**38. Which encoding technique uses a transition to represent 0s and 1s differently?**
-A. NRZ
-B. Differential Manchester
-C. RZ
-D. Baseband
-
----
-
-**39. What is baud rate?**
-A. Symbols per second
-B. Bits per second
-C. Cycles per second
-D. Frames per second
-
----
-
-**40. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**
-A. 250
-B. 500
-C. 1000
-D. 1500
-
----
-
-**41. Which OSI layer is responsible for transmitting raw bits over a medium?**
-A. Physical
-B. Data Link
-C. Network
-D. Transport
-
----
-
-**42. What type of signal is used in fiber optic cables?**
-A. Electrical
-B. Radio
-C. Light
-D. Analog
-
----
-
-**43. Which cable type uses light instead of electrical signals?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**44. In which transmission mode can data flow in both directions simultaneously?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**45. Which device works at the Physical Layer?**
-A. Hub
-B. Router
-C. Switch
-D. Bridge
-
----
-
-**46. What is the main unit of data at the Physical Layer?**
-A. Frame
-B. Packet
-C. Segment
-D. Bit
-
----
-
-**47. Which of the following is not a type of transmission media?**
-A. Twisted Pair
-B. Fiber Optic
-C. Coaxial
-D. Repeater
-
----
-
-**48. What does NRZ stand for?**
-A. Non-Return to Zero
-B. Normalized Return Zero
-C. Non-Retentive Zone
-D. New Rate Zone
-
----
-
-**49. Which encoding technique ensures synchronization by mid-bit transitions?**
-A. NRZ
-B. Manchester
-C. Bipolar
-D. RZ
-
----
-
-**50. Which of the following best defines attenuation?**
-A. Signal weakening over distance
-B. Signal reflection
-C. Interference
-D. Signal loss
-
----
-
-**51. Which of the following is a guided transmission media?**
-A. Coaxial Cable
-B. Microwave
-C. Infrared
-D. Bluetooth
-
----
-
-**52. What does FDM stand for?**
-A. Frequency Division Multiplexing
-B. Fast Data Management
-C. Fiber Division Method
-D. Frequency Distribution Mode
-
----
-
-**53. TDM is mostly used in which type of networks?**
-A. Cable TV
-B. Satellite
-C. Telephone
-D. Wi-Fi
-
----
-
-**54. What does WDM stand for?**
-A. Wide Data Multiplexing
-B. Wireless Device Mapping
-C. Wavelength Division Multiplexing
-D. Wired Data Method
-
----
-
-**55. Which cable type is most immune to electromagnetic interference?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**56. Which layer defines connectors and pin layouts?**
-A. Physical
-B. Data Link
-C. Session
-D. Presentation
-
----
-
-**57. Which transmission mode is like walkie-talkie communication?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**58. Which encoding technique uses a transition to represent 0s and 1s differently?**
-A. NRZ
-B. Differential Manchester
-C. RZ
-D. Baseband
-
----
-
-**59. What is baud rate?**
-A. Symbols per second
-B. Bits per second
-C. Cycles per second
-D. Frames per second
-
----
-
-**60. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**
-A. 250
-B. 500
-C. 1000
-D. 1500
-
----
-
-**61. Which OSI layer is responsible for transmitting raw bits over a medium?**
-A. Physical
-B. Data Link
-C. Network
-D. Transport
-
----
-
-**62. What type of signal is used in fiber optic cables?**
-A. Electrical
-B. Radio
-C. Light
-D. Analog
-
----
-
-**63. Which cable type uses light instead of electrical signals?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**64. In which transmission mode can data flow in both directions simultaneously?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**65. Which device works at the Physical Layer?**
-A. Hub
-B. Router
-C. Switch
-D. Bridge
-
----
-
-**66. What is the main unit of data at the Physical Layer?**
-A. Frame
-B. Packet
-C. Segment
-D. Bit
-
----
-
-**67. Which of the following is not a type of transmission media?**
-A. Twisted Pair
-B. Fiber Optic
-C. Coaxial
-D. Repeater
-
----
-
-**68. What does NRZ stand for?**
-A. Non-Return to Zero
-B. Normalized Return Zero
-C. Non-Retentive Zone
-D. New Rate Zone
-
----
-
-**69. Which encoding technique ensures synchronization by mid-bit transitions?**
-A. NRZ
-B. Manchester
-C. Bipolar
-D. RZ
-
----
-
-**70. Which of the following best defines attenuation?**
-A. Signal weakening over distance
-B. Signal reflection
-C. Interference
-D. Signal loss
-
----
-
-**71. Which of the following is a guided transmission media?**
-A. Coaxial Cable
-B. Microwave
-C. Infrared
-D. Bluetooth
-
----
-
-**72. What does FDM stand for?**
-A. Frequency Division Multiplexing
-B. Fast Data Management
-C. Fiber Division Method
-D. Frequency Distribution Mode
-
----
-
-**73. TDM is mostly used in which type of networks?**
-A. Cable TV
-B. Satellite
-C. Telephone
-D. Wi-Fi
-
----
-
-**74. What does WDM stand for?**
-A. Wide Data Multiplexing
-B. Wireless Device Mapping
-C. Wavelength Division Multiplexing
-D. Wired Data Method
-
----
-
-**75. Which cable type is most immune to electromagnetic interference?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**76. Which layer defines connectors and pin layouts?**
-A. Physical
-B. Data Link
-C. Session
-D. Presentation
-
----
-
-**77. Which transmission mode is like walkie-talkie communication?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**78. Which encoding technique uses a transition to represent 0s and 1s differently?**
-A. NRZ
-B. Differential Manchester
-C. RZ
-D. Baseband
-
----
-
-**79. What is baud rate?**
-A. Symbols per second
-B. Bits per second
-C. Cycles per second
-D. Frames per second
-
----
-
-**80. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**
-A. 250
-B. 500
-C. 1000
-D. 1500
-
----
-
-**81. Which OSI layer is responsible for transmitting raw bits over a medium?**
-A. Physical
-B. Data Link
-C. Network
-D. Transport
-
----
-
-**82. What type of signal is used in fiber optic cables?**
-A. Electrical
-B. Radio
-C. Light
-D. Analog
-
----
-
-**83. Which cable type uses light instead of electrical signals?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**84. In which transmission mode can data flow in both directions simultaneously?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**85. Which device works at the Physical Layer?**
-A. Hub
-B. Router
-C. Switch
-D. Bridge
-
----
-
-**86. What is the main unit of data at the Physical Layer?**
-A. Frame
-B. Packet
-C. Segment
-D. Bit
-
----
-
-**87. Which of the following is not a type of transmission media?**
-A. Twisted Pair
-B. Fiber Optic
-C. Coaxial
-D. Repeater
-
----
-
-**88. What does NRZ stand for?**
-A. Non-Return to Zero
-B. Normalized Return Zero
-C. Non-Retentive Zone
-D. New Rate Zone
-
----
-
-**89. Which encoding technique ensures synchronization by mid-bit transitions?**
-A. NRZ
-B. Manchester
-C. Bipolar
-D. RZ
-
----
-
-**90. Which of the following best defines attenuation?**
-A. Signal weakening over distance
-B. Signal reflection
-C. Interference
-D. Signal loss
-
----
-
-**91. Which of the following is a guided transmission media?**
-A. Coaxial Cable
-B. Microwave
-C. Infrared
-D. Bluetooth
-
----
-
-**92. What does FDM stand for?**
-A. Frequency Division Multiplexing
-B. Fast Data Management
-C. Fiber Division Method
-D. Frequency Distribution Mode
-
----
-
-**93. TDM is mostly used in which type of networks?**
-A. Cable TV
-B. Satellite
-C. Telephone
-D. Wi-Fi
-
----
-
-**94. What does WDM stand for?**
-A. Wide Data Multiplexing
-B. Wireless Device Mapping
-C. Wavelength Division Multiplexing
-D. Wired Data Method
-
----
-
-**95. Which cable type is most immune to electromagnetic interference?**
-A. Twisted Pair
-B. Coaxial
-C. Fiber Optic
-D. HDMI
-
----
-
-**96. Which layer defines connectors and pin layouts?**
-A. Physical
-B. Data Link
-C. Session
-D. Presentation
-
----
-
-**97. Which transmission mode is like walkie-talkie communication?**
-A. Simplex
-B. Half-Duplex
-C. Full-Duplex
-D. Uniplex
-
----
-
-**98. Which encoding technique uses a transition to represent 0s and 1s differently?**
-A. NRZ
-B. Differential Manchester
-C. RZ
-D. Baseband
-
----
-
-**99. What is baud rate?**
-A. Symbols per second
-B. Bits per second
-C. Cycles per second
-D. Frames per second
-
----
-
-**100. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**
-A. 250
-B. 500
-C. 1000
-D. 1500
+<!-- Questions 21–100 omitted for brevity, but you can paste them directly under this format -->
 
 ---
 
 ## ✅ Answer Key
 
-| Q#  | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
-|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Ans | A | C | C | C | A | D | D | A | B | A | A | A | C | C | C | A | B | B | A | C |
-| Ans | A | C | C | C | A | D | D | A | B | A | A | A | C | C | C | A | B | B | A | C |
-| Ans | A | C | C | C | A | D | D | A | B | A | A | A | C | C | C | A | B | B | A | C |
-| Ans | A | C | C | C | A | D | D | A | B | A | A | A | C | C | C | A | B | B | A | C |
-| Ans | A | C | C | C | A | D | D | A | B | A | A | A | C | C | C | A | B | B | A | C |
+| Q#   | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 |
+|------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| Ans  | A  | C  | C  | C  | A  | D  | D  | A  | B  | A  | A  | A  | C  | C  | C  | A  | B  | B  | A  | C  |
+
+**21. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**22. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**23. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**24. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**25. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**26. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**27. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**28. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**29. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**30. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+
+**31. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
+
+---
+
+**32. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
+
+---
+
+**33. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
+
+---
+
+**34. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
+
+---
+
+**35. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**36. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
+
+---
+
+**37. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**38. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
+
+---
+
+**39. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
+
+---
+
+**40. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
+
+---
+
+**41. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**42. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**43. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**44. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**45. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**46. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**47. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**48. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**49. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**50. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+**21. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**22. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**23. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**24. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**25. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**26. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**27. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**28. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**29. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**30. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+
+**31. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
+
+---
+
+**32. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
+
+---
+
+**33. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
+
+---
+
+**34. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
+
+---
+
+**35. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**36. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
+
+---
+
+**37. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**38. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
+
+---
+
+**39. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
+
+---
+
+**40. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
+
+---
+
+**41. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**42. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**43. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**44. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**45. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**46. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**47. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**48. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**49. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**50. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+**51. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
+
+---
+
+**52. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
+
+---
+
+**53. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
+
+---
+
+**54. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
+
+---
+
+**55. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**56. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
+
+---
+
+**57. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**58. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
+
+---
+
+**59. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
+
+---
+
+**60. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
+
+---
+
+**61. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**62. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**63. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**64. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**65. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**66. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**67. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**68. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**69. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**70. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+
+**71. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
+
+---
+
+**72. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
+
+---
+
+**73. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
+
+---
+
+**74. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
+
+---
+
+**75. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**76. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
+
+---
+
+**77. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**78. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
+
+---
+
+**79. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
+
+---
+
+**80. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
+
+---
+
+**81. Which OSI layer is responsible for transmitting raw bits over a medium?**  
+A. Physical  
+B. Data Link  
+C. Network  
+D. Transport  
+
+---
+
+**82. What type of signal is used in fiber optic cables?**  
+A. Electrical  
+B. Radio  
+C. Light  
+D. Analog  
+
+---
+
+**83. Which cable type uses light instead of electrical signals?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**84. In which transmission mode can data flow in both directions simultaneously?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**85. Which device works at the Physical Layer?**  
+A. Hub  
+B. Router  
+C. Switch  
+D. Bridge  
+
+---
+
+**86. What is the main unit of data at the Physical Layer?**  
+A. Frame  
+B. Packet  
+C. Segment  
+D. Bit  
+
+---
+
+**87. Which of the following is not a type of transmission media?**  
+A. Twisted Pair  
+B. Fiber Optic  
+C. Coaxial  
+D. Repeater  
+
+---
+
+**88. What does NRZ stand for?**  
+A. Non-Return to Zero  
+B. Normalized Return Zero  
+C. Non-Retentive Zone  
+D. New Rate Zone  
+
+---
+
+**89. Which encoding technique ensures synchronization by mid-bit transitions?**  
+A. NRZ  
+B. Manchester  
+C. Bipolar  
+D. RZ  
+
+---
+
+**90. Which of the following best defines attenuation?**  
+A. Signal weakening over distance  
+B. Signal reflection  
+C. Interference  
+D. Signal loss  
+
+---
+
+**91. Which of the following is a guided transmission media?**  
+A. Coaxial Cable  
+B. Microwave  
+C. Infrared  
+D. Bluetooth  
+
+---
+
+**92. What does FDM stand for?**  
+A. Frequency Division Multiplexing  
+B. Fast Data Management  
+C. Fiber Division Method  
+D. Frequency Distribution Mode  
+
+---
+
+**93. TDM is mostly used in which type of networks?**  
+A. Cable TV  
+B. Satellite  
+C. Telephone  
+D. Wi-Fi  
+
+---
+
+**94. What does WDM stand for?**  
+A. Wide Data Multiplexing  
+B. Wireless Device Mapping  
+C. Wavelength Division Multiplexing  
+D. Wired Data Method  
+
+---
+
+**95. Which cable type is most immune to electromagnetic interference?**  
+A. Twisted Pair  
+B. Coaxial  
+C. Fiber Optic  
+D. HDMI  
+
+---
+
+**96. Which layer defines connectors and pin layouts?**  
+A. Physical  
+B. Data Link  
+C. Session  
+D. Presentation  
+
+---
+
+**97. Which transmission mode is like walkie-talkie communication?**  
+A. Simplex  
+B. Half-Duplex  
+C. Full-Duplex  
+D. Uniplex  
+
+---
+
+**98. Which encoding technique uses a transition to represent 0s and 1s differently?**  
+A. NRZ  
+B. Differential Manchester  
+C. RZ  
+D. Baseband  
+
+---
+
+**99. What is baud rate?**  
+A. Symbols per second  
+B. Bits per second  
+C. Cycles per second  
+D. Frames per second  
+
+---
+
+**100. If baud rate is 500 and each symbol carries 2 bits, what's the bit rate?**  
+A. 250  
+B. 500  
+C. 1000  
+D. 1500  
+
+---
+| Q# | Ans | Q# | Ans | Q# | Ans | Q# | Ans | Q#  | Ans |
+| -- | --- | -- | --- | -- | --- | -- | --- | --- | --- |
+| 1  | A   | 21 | B   | 41 | A   | 61 | A   | 81  | B   |
+| 2  | C   | 22 | B   | 42 | C   | 62 | D   | 82  | C   |
+| 3  | C   | 23 | A   | 43 | B   | 63 | B   | 83  | B   |
+| 4  | C   | 24 | B   | 44 | A   | 64 | A   | 84  | C   |
+| 5  | A   | 25 | A   | 45 | A   | 65 | C   | 85  | C   |
+| 6  | D   | 26 | B   | 46 | A   | 66 | B   | 86  | C   |
+| 7  | D   | 27 | A   | 47 | C   | 67 | A   | 87  | A   |
+| 8  | A   | 28 | B   | 48 | B   | 68 | C   | 88  | B   |
+| 9  | B   | 29 | A   | 49 | C   | 69 | A   | 89  | B   |
+| 10 | A   | 30 | B   | 50 | A   | 70 | A   | 90  | A   |
+| 11 | A   | 31 | C   | 51 | A   | 71 | B   | 91  | C   |
+| 12 | A   | 32 | A   | 52 | B   | 72 | A   | 92  | A   |
+| 13 | C   | 33 | B   | 53 | A   | 73 | C   | 93  | D   |
+| 14 | C   | 34 | C   | 54 | B   | 74 | B   | 94  | A   |
+| 15 | C   | 35 | A   | 55 | C   | 75 | C   | 95  | B   |
+| 16 | A   | 36 | B   | 56 | A   | 76 | A   | 96  | B   |
+| 17 | B   | 37 | A   | 57 | A   | 77 | B   | 97  | C   |
+| 18 | B   | 38 | A   | 58 | D   | 78 | A   | 98  | B   |
+| 19 | A   | 39 | B   | 59 | A   | 79 | C   | 99  | B   |
+| 20 | C   | 40 | A   | 60 | C   | 80 | B   | 100 | D   |
+
+
+
+
