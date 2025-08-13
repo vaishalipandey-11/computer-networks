@@ -47,16 +47,42 @@ Know the **TLS handshake basics** and how HTTPS ensures confidentiality and auth
 | **Session Key Generation** | Secure communication starts       | Both sides generate same **symmetric session key**          |
 | **Finished Message**       | Confirm success                   | Both sides confirm handshake is complete, start encryption  |
 
-Client Hello – "Hi, here’s how I can talk securely."
-Server Hello – "Okay, we’ll use this method."
-Certificate – "Here’s proof I’m the real server."
-Server Key Exchange – "Here’s extra info to make the key."
-Server Hello Done – "Your turn."
-Client Key Exchange – "Here’s the secret (encrypted for you)."
-Change Cipher Spec (Client) – "I’ll talk encrypted now."
-Finished (Client) – "Encryption ready on my side."
-Change Cipher Spec (Server) – "I’ll talk encrypted too."
-Finished (Server) – "Encryption ready on my side."
+# TLS Handshake Steps (Simple & Understandable)
+
+## 1. Client Hello  
+"Hi, here’s how I can talk securely."  
+- Sends TLS version, cipher options, random number.
+## 2. Server Hello  
+"Okay, we’ll use this method."  
+- Sends chosen cipher, random number.
+## 3. Certificate  
+"Here’s proof I’m the real server."  
+- Digital certificate for authentication.
+## 4. Server Key Exchange  
+"Here’s extra info to make the key."  
+- Only if needed for chosen cipher.
+## 5. Server Hello Done  
+"Your turn."  
+- Server done sending setup info.
+## 6. Client Key Exchange  
+"Here’s the secret (encrypted for you)."  
+- Sends pre-master secret encrypted with server’s public key.
+## 7. Change Cipher Spec (Client)  
+"I’ll talk encrypted now."  
+- Switches to encryption.
+## 8. Finished (Client)  
+"Encryption ready on my side."  
+- Proof of correct key setup.
+## 9. Change Cipher Spec (Server)  
+"I’ll talk encrypted too."  
+- Server switches to encryption.
+## 10. Finished (Server)  
+"Encryption ready on my side."  
+- Proof of correct key setup.
+---
+
+**🔒 Result:** Both sides now share the same secret session key → All communication is encrypted.
+
 ---
 
 ### 🌐 HTTPS Ensures This Security
