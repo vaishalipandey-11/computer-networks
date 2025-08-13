@@ -47,6 +47,16 @@ Know the **TLS handshake basics** and how HTTPS ensures confidentiality and auth
 | **Session Key Generation** | Secure communication starts       | Both sides generate same **symmetric session key**          |
 | **Finished Message**       | Confirm success                   | Both sides confirm handshake is complete, start encryption  |
 
+Client Hello – "Hi, here’s how I can talk securely."
+Server Hello – "Okay, we’ll use this method."
+Certificate – "Here’s proof I’m the real server."
+Server Key Exchange – "Here’s extra info to make the key."
+Server Hello Done – "Your turn."
+Client Key Exchange – "Here’s the secret (encrypted for you)."
+Change Cipher Spec (Client) – "I’ll talk encrypted now."
+Finished (Client) – "Encryption ready on my side."
+Change Cipher Spec (Server) – "I’ll talk encrypted too."
+Finished (Server) – "Encryption ready on my side."
 ---
 
 ### 🌐 HTTPS Ensures This Security
