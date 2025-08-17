@@ -469,9 +469,64 @@ Example: IPv6 packets inside IPv4 using 6to4 tunneling.
 ---
 
 ### VPN (Virtual Private Network)
-- Uses tunneling + encryption to securely send data over public networks
-- Creates a private, encrypted tunnel between the user and remote network
-- Hides IP address and ensures confidentiality & integrity
+
+# VPN (Virtual Private Network)
+
+## 🔹 What is a VPN?
+A **VPN** creates a secure, encrypted connection (a "tunnel") between your device and a remote server over the public Internet.  
+It makes your online activities private, secure, and can also mask your IP address.
+
+---
+
+## 🔹 How VPN Works
+1. You connect to a VPN server (using VPN software).
+2. Your data is **encrypted** before leaving your device.
+3. The encrypted data travels over the Internet → preventing snooping by ISPs, hackers, or governments.
+4. The VPN server decrypts the data and forwards it to the final destination.
+5. Response comes back the same way (encrypted → through VPN → to you).
+
+---
+
+## 🔹 Key Features
+- **Encryption** → Protects data from eavesdropping.  
+- **Anonymity** → Hides your real IP; websites see VPN server IP.  
+- **Bypass Restrictions** → Access geo-blocked or censored content.  
+- **Remote Access** → Employees securely connect to company networks.
+
+---
+
+## 🔹 Types of VPN
+1. **Remote Access VPN**  
+   - Used by individuals to connect securely to a private network (e.g., company network).
+   
+2. **Site-to-Site VPN**  
+   - Connects two entire networks (e.g., branch office ↔ headquarters).
+   
+3. **Client-to-Site VPN**  
+   - Employees use VPN clients to connect to a corporate VPN gateway.
+
+---
+
+## 🔹 VPN Protocols
+- **PPTP** – Old, fast, but weak security.  
+- **L2TP/IPSec** – Secure, but slower.  
+- **OpenVPN** – Widely used, strong security.  
+- **IKEv2/IPSec** – Secure and good for mobile devices.  
+- **WireGuard** – Modern, fast, and lightweight.
+
+---
+
+## 🔹 Advantages
+- Secure communication on public Wi-Fi.
+- Hides browsing activity from ISPs.
+- Helps bypass geo-blocks & censorship.
+- Protects sensitive corporate data.
+
+## 🔹 Disadvantages
+- Can slow down connection speed.
+- Some websites block VPN traffic.
+- Trust in VPN provider is required (they can see your traffic after decryption).
+
 
 **Protocols used:** IPSec, PPTP, L2TP, OpenVPN, WireGuard
 
