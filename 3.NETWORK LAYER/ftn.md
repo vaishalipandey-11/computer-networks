@@ -420,6 +420,18 @@ Example: Home Wi-Fi router connecting your LAN to the Internet.
 - Performs routing within a LAN or VLANs
 - Faster than routers for internal traffic due to hardware-based routing
 
+- ### 🔹 Quick Comparison Table
+
+| Feature               | Switch                          | Router                          |
+|------------------------|---------------------------------|---------------------------------|
+| OSI Layer              | Layer 2 (Data Link)            | Layer 3 (Network)               |
+| Works with             | MAC Address                    | IP Address                      |
+| Purpose                | Connect devices in a LAN       | Connect different networks      |
+| Scope                  | Local (LAN)                    | Wide (LAN ↔ WAN / Internet)     |
+| Main Function          | Forward frames                 | Forward packets (routing)       |
+| Extra Features         | VLAN, Port Security            | NAT, DHCP, Firewall, VPN        |
+
+
 Used in enterprise LANs for inter-VLAN routing.
 
 **Interview Tip:**
@@ -435,6 +447,26 @@ Both route using IP, but Layer 3 switches are optimized for speed in LANs, while
 - Often used to carry private traffic over a public network
 
 Example: IPv6 packets inside IPv4 using 6to4 tunneling.
+
+## 6to4 Tunneling (IPv6 over IPv4)
+
+🔹 Problem:  
+- IPv6 is the future, but most of today’s Internet still runs on IPv4.  
+- Direct IPv6 ↔ IPv4 communication is not possible.  
+
+🔹 Solution:  
+- Use **tunneling**: encapsulate IPv6 packets **inside IPv4 packets**.  
+- One such method is **6to4 tunneling**.
+
+---
+
+### How 6to4 Works
+1. IPv6 packet is created by the host.
+2. Before sending, it is **wrapped inside an IPv4 packet**.
+3. The IPv4 header carries it across the IPv4 network.
+4. At the other end, the IPv4 header is stripped off, leaving the original IPv6 packet.
+
+---
 
 ### VPN (Virtual Private Network)
 - Uses tunneling + encryption to securely send data over public networks
