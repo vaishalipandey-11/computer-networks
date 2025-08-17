@@ -36,6 +36,13 @@ Every data packet must carry the source and destination IP address. Without this
 - **Distance Vector** – e.g., RIP (Routing Information Protocol)
 - **Link State** – e.g., OSPF (Open Shortest Path First)
 - **Hybrid** – e.g., EIGRP (Enhanced Interior Gateway Routing Protocol)
+- ## Routing Protocols
+| Type            | Example | Info Shared                  | Algorithm      | Best For              |
+| --------------- | ------- | ---------------------------- | -------------- | --------------------- |
+| Distance Vector | RIP     | Full table periodically      | Bellman-Ford   | Small/simple networks |
+| Link State      | OSPF    | Link-state database (LSAs)   | Dijkstra (SPF) | Large networks        |
+| Hybrid          | EIGRP   | Neighbors + partial updates  | DUAL           | Medium/Large networks |
+
 
 **Key Point:** Routing adapts in real-time to network changes like link failure or congestion.
 
@@ -87,6 +94,11 @@ It is divided into 3 fragments:
 - 1000 bytes
 ```
 
+- **MAC** → Local hardware ID (private, not shared on internet).
+- **IP** → Logical address (needed for sending/receiving data).
+- **Port** → Endpoint for application-level communication.
+
+
 ## 2. IP Addressing
 
 ### IPv4
@@ -109,6 +121,9 @@ It is divided into 3 fragments:
 | D | 224.0.0.0 – 239.255.255.255 | — | Multicasting |
 | E | 240.0.0.0 – 255.255.255.255 | — | Research |
 
+Trick → Start at A=127, then add:  
+B (+64), C (+32), D (+16), E (rest)
+
 ### Public vs Private IPs
 
 **Private IP (used in LANs):**
@@ -126,6 +141,17 @@ It is divided into 3 fragments:
 - Removes dependency on classes (A/B/C)
 - Uses prefix notation like 192.168.1.0/24
 - /24 means 24 bits for network, 8 for hosts
+
+- ## Common CIDR Notations
+| CIDR | Subnet Mask     | Usable Hosts       | Use Case              |
+| ---- | --------------- | ----------------- | --------------------- |
+| /8   | 255.0.0.0       | ~16 million       | Very large networks   |
+| /16  | 255.255.0.0     | ~65,000           | Medium networks       |
+| /24  | 255.255.255.0   | 254               | Home/small office     |
+| /30  | 255.255.255.252 | 2                 | Point-to-point links  |
+
+👉 Formula:  
+`Usable hosts = 2^(32 - prefix) - 2`
 
 **Interview Tip:** Know how to calculate no. of hosts in a subnet:
 ```
@@ -413,6 +439,20 @@ Can be shortened to: 2001:db8:85a3::8a2e:370:7334
 | **Format** | IPv4: 32-bit / IPv6: 128-bit | 48-bit hexadecimal (e.g., `00:1A:2B:3C...`) |
 | **Purpose** | Uniquely identifies device **across networks** | Identifies device **within a local network** |
 | **Example** | `192.168.1.5` | `00:1A:2B:3C:4D:5E` |
+
+
+## Data Units
+| Unit            | Equal To     |
+| --------------- | ------------ |
+| 1 Byte (B)      | 8 bits       |
+| 1 KB            | 1024 Bytes   |
+| 1 MB            | 1024 KB      |
+| 1 GB            | 1024 MB      |
+👉 Conversions:  
+- Bits → Bytes: ÷8  
+- Bytes → Bits: ×8  
+- Binary → Hex: Group bits in 4s  
+- Hex → Binary: Expand each hex digit into 4 bits  
 
 **Interview Tip:**
 - IP address is temporary and logical, MAC is permanent and physical
