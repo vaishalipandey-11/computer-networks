@@ -338,6 +338,42 @@ A 4000-byte packet over a 1500-byte MTU link → split into 3 fragments:
 - Fragmentation is inefficient and should be avoided using Path MTU Discovery
 - IPv6 does not allow routers to fragment; only the sender can do it
 
+- ## Fragmentation and Path MTU Discovery (PMTUD)
+
+### 🔹 Why Fragmentation is Inefficient
+**Fragmentation** = splitting a large IP packet into smaller chunks so it can pass through a network with a smaller **MTU (Maximum Transmission Unit)**.
+
+**Problems:**
+- **Overhead** – Each fragment carries its own IP header (waste of bandwidth).  
+- **Processing load** – Routers & receivers must reassemble fragments → slows things down.  
+- **Loss amplification** – If **one fragment** is lost, the entire packet must be retransmitted.  
+- **Security risks** – Fragmentation can be exploited in attacks (e.g., evading firewalls with tiny fragments).  
+
+✅ Therefore, modern networking tries to **avoid fragmentation**.
+
+---
+
+### 🔹 Path MTU Discovery (PMTUD)
+**Goal:** Find the largest packet size that can travel end-to-end **without fragmentation**.
+
+**How it works (IPv4):**
+1. Sender sets the **DF (Don’t Fragment)** bit in the IP header.  
+2. If a router along the path encounters a packet larger than its MTU, it **drops the packet** and sends back an **ICMP “Fragmentation Needed”** message.  
+3. Sender reduces packet size and retries → until it finds a size that passes.  
+
+✅ This way, the sender automatically adjusts packet size → **no fragmentation required**.
+
+---
+
+### 🔹 Why IPv6 Does Not Allow Routers to Fragment
+In **IPv6**, only the **sender** can fragment packets. Routers are **not allowed** to do it.  
+
+**Reasons:**
+- Routers should forward packets as fast as possible → no time wasted in splitting/reassembling.  
+- Responsibility lies with the **sender** (who can use PMTUD to choose the proper size).  
+- Simplifies router design & improves performance.  
+
+
 ## 13. Switching Techniques
 
 Switching determines how data moves between devices in a network.
