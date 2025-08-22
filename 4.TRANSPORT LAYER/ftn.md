@@ -407,3 +407,57 @@ Cloud Services
 QoS is crucial for real-time and high-priority applications.
 Focus on how delay, jitter, and packet loss are minimized using shaping, queuing, and prioritization.
 
+
+
+# Error Detection vs Correction and ARQ Types
+
+## 1. Detection ≠ Correction
+
+- **Error Detection**
+  - Can **detect** that something went wrong, but not fix it directly.
+  - Examples: Parity bits, Checksums, CRC.
+
+- **Error Correction**
+  - Can **detect and fix** the error without retransmission.
+  - Examples: Hamming code, Reed–Solomon codes, Forward Error Correction (FEC).
+
+---
+
+## 2. ARQ vs FEC
+
+- **ARQ (Automatic Repeat reQuest)** → **Reactive approach**
+  - Receiver detects error → requests retransmission.
+  - Used in **TCP** (checksum + ACK/NACK).
+  - Example methods: Stop-and-Wait, Go-Back-N, Selective Repeat.
+
+- **FEC (Forward Error Correction)** → **Proactive approach**
+  - Sender adds redundant data → receiver can both detect and correct errors.
+  - No retransmission needed.
+  - Used in satellite, live streaming, wireless.
+
+- **TCP**
+  - Uses **error detection (checksum)** + retransmission.
+  - ✅ ARQ  
+  - ❌ Not FEC
+
+---
+
+## 3. ARQ Types
+
+| **ARQ Type**          | **Description**                                                                 |
+|------------------------|---------------------------------------------------------------------------------|
+| **Stop-and-Wait ARQ**  | Sender sends **one frame at a time** and waits for ACK. If NACK/timeout → resend. |
+| **Go-Back-N ARQ**      | Sender sends **multiple frames (window size N)**, but on error → retransmit that frame **and all subsequent frames**. |
+| **Selective Repeat ARQ** | Sender sends multiple frames, but **only the specific lost/corrupted frames** are retransmitted. Receiver buffers out-of-order frames. |
+
+---
+
+## 4. Quick Intuition
+
+- **Stop-and-Wait** → Simple, but low throughput.  
+- **Go-Back-N** → Better efficiency, but wastes bandwidth on retransmissions.  
+- **Selective Repeat** → Most efficient, but more complex.  
+
+---
+
+
